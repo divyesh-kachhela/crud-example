@@ -86,7 +86,7 @@
             <?php echo (isset($response)) ? " $response " : "" ?>
         </div> 
         <div class="add-pro-btn">
-            <a href="update-category.php?id='<?php echo $category_id ?>'"> <i class="fa-solid fa-arrow-left icon"></i> back</a>
+            <a href="update-category.php?id=<?php echo $category_id ?>"> <i class="fa-solid fa-arrow-left icon"></i> back</a>
         </div>
     </div>
 </body>
