@@ -255,6 +255,7 @@ $(document).ready(function () {
         // Check if the file is an image
         if (file.type && file.type.indexOf('image') === -1) {
             alert('File is not an image.');
+            location.reload();
             return;
         }
 
